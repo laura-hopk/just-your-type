@@ -5,3 +5,15 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  background-color: #363c4a;
+}
+
+.behind {
+  position: relative;
+}
+
+.infront {
+  position: absolute;
+}
