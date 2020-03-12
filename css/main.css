@@ -1,22 +1,26 @@
-html {
-  box-sizing: border-box;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 body {
   background-color: #363c4a;
 }
 
 .infront {
+  max-width: 24em;
   position: absolute;
-  top: 47%;
+  top: 28%;
   left: 50%;
   transform: translateX(-50%);
+  border: 1px #fff solid;
 }
 
 .behind {
   position: relative;
+}
+
+.zetta {
+  color: #414859;
+  font-family: Akronim, cursive;
+}
+
+.giga {
+  color: #fff;
+  font-family: "Josefin Slab", serif;
 }
